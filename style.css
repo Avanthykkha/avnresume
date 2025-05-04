@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: url('images/download (6).jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    cursor: url('images/✧ ✧ ✧.jpeg'), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  a {
+    color: #4ca380;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .content-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgba(190, 236, 211, 0.8); 
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  .container {
+    max-width: 700px;
+    padding: 20px;
+    background: #e9f6ec;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #a8d5ba;
+    object-fit: cover;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: #5c9e7b;
+  }
+  
+  .contact {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .card {
+    background: #eef4ef;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 5px solid #94d3ac;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    color: #4ca380;
+  }
+  
+  ul {
+    padding-left: 1rem;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  
